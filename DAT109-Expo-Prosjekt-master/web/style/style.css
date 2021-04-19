@@ -1,0 +1,211 @@
+/*
+ * Copyright (c) 2019 Grim Thomas Hammerstad (182722@stud.hvl.no)
+ * Ørjan Enes (180337@stud.hvl.no)
+ * Joakim Johesan (182719@stud.hvl.no)
+ * Eirik Alvestav (180339@stud.hvl.no)
+ * Adrian Holte (182714@stud.hvl.no)
+ * Kjetil Hunshammer (182718@stud.hvl.no)
+ *
+ * All Rights Reserved.
+ *
+ * Unauthorized copying of this file via any medium is strictly prohibited
+ * Proprietary and confidential.
+ * Distribution for testing purposes is only permitted within the
+ * Kronstad campus of the Western Norway University of
+ * Applied Sciences (Høgskulen på Vestlandet, HVL) in Bergen, Norway.
+ *
+ */
+
+.qrcode-text-btn {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background: url(../assets/iconmonstr-qr-code-2.svg) 50% 50% no-repeat;
+    cursor: pointer;
+}
+
+.qrcode-text-btn > input[type=file] {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.qrcode-text {
+    padding-right: 1.7em;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
+.qrcode-text + .qrcode-text-btn {
+    width: 1.7em;
+    margin-left: -1.7em;
+    vertical-align: middle;
+}
+
+.videoFrame {
+    display: none;
+}
+
+.whiteBox{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+.secondWhiteBox{
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+}
+
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.textLables{
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Lato;
+    font-size: 10px;
+    color: gray;
+}
+
+.errorTexst{
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    color: red;
+    top: 10px;
+}
+
+
+.wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+.textCol{
+    color:#6617F9;
+}
+.mdc-button.bottomToTheRight {
+    float: right;
+    padding-bottom: 10px;
+}
+
+.wecomeText.textCol{
+
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'EB Garamond', serif;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    font-style:normal;
+    padding-top: 0.1em;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width:840px){
+    .mdc-button{
+        width: 100%;
+    }
+
+    #PhoneNumber{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:640px){
+    .mdc-button{
+        width: 100%;
+    }
+    .wecomeText.textCol{
+        width: 440px;
+    }
+}
+
+/* --------------------css for star rating vote page start -------------------- */
+
+.rating {
+    width: 208px;
+    height: 40px;
+    margin: 0 auto;
+
+}
+.rating label {
+    float: right;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.rating label:not(:first-of-type) {
+    padding-right: 2px;
+}
+
+.rating label:before {
+    content: "\2605";
+    font-size: 42px;
+    color: #CCCCCC;
+    line-height: 1;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating input:checked ~ label:before, .rating:not(:checked) > label:hover:before, .rating:not(:checked) > label:hover ~ label:before {
+    color: #F9DF4A;
+}
+
+/* ------------------css for star rating vote page end ------------------ */
+
+.mdc-button.width{
+    width: 100%;
+}
+
+.width100{
+    width: 100%;
+}
+
+.bottomwidth50{
+    width: 50%;
+}
+
+.movedown10px{
+    margin-top: 10px;
+}
+
+.textColred{
+    color: red;
+}
+
+.input-vertical {
+    display: block;
+}
+

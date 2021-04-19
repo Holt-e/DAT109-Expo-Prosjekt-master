@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2019 Grim Thomas Hammerstad (182722@stud.hvl.no)
+  ~ Ørjan Enes (180337@stud.hvl.no)
+  ~ Joakim Johesan (182719@stud.hvl.no)
+  ~ Eirik Alvestad (180339@stud.hvl.no)
+  ~ Adrian Holthe (182714@stud.hvl.no)
+  ~ Kjetil Hunshammer (182718@stud.hvl.no)
+  ~
+  ~ All Rights Reserved.
+  ~
+  ~ Unauthorized copying of this file via any medium is strictly prohibited
+  ~ Proprietary and confidential.
+  ~ Distribution for testing purposes is only permitted within the
+  ~ Kronstad campus of the Western Norway University of
+  ~ Applied Sciences (Høgskulen på Vestlandet, HVL) in Bergen, Norway.
+  ~
+  -->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+           version="4.0">
+    <welcome-file-list>
+        <welcome-file>signup</welcome-file>
+    </welcome-file-list>
+
+</web-app>

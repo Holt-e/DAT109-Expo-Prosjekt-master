@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/eclipselink-2.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/postgresql-42.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/twilio-7.36.2-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/twilio-7.9.1-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/DAT109-Expo-Prosjekt-master/lib/javax.servlet.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
